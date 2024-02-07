@@ -5,15 +5,3 @@ if (number1 % 2 == 0) {
 } else {
     console.log(number1, ':Это нечетное число');
 };
-
-let number = 1;
-console.log(number);
-while (number != 3) {
-    number++
-};
-console.log(number);
-console.log(number);
-while (number != 1) {
-    number--
-};
-console.log(number);
