@@ -7,5 +7,5 @@ for (let key in passport) {
     newname[key] = passport[key];
 }
 newname.name = "Ivan";
-console.log (passport);
-console.log (newname);
+console.log (passport.name);
+console.log (newname.name);
