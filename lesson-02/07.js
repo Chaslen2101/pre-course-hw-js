@@ -10,12 +10,12 @@ let passportMarried = {
 let passportMarried2 = {
     name: "Petr",
     surname: "Petrov",
-    married: "married",
     address: {
         country: "USA",
         city: "Bobryisk"
-    }
-}
+    },
+    married: true
+};
 
 console.log (passportMarried);
 console.log (passportMarried2);
