@@ -61,5 +61,5 @@ const users = [
     }
 ];
 
-let users2 = users.filter(item => item.id % 2 == 0);
-console.log(users2);
+let users1 = users.filter(item => item.id % 2 == 0);
+console.log(users1);
